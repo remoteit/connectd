@@ -4,7 +4,11 @@
 
 ## Install
 
-If you dont' know what version of `connectd` to use on your system and you are on a Linux/Unix system, download and run the `bintester` to find the best daemon for ARM and MIPS platforms:
+Download the correct version of `connectd` for your platform from the [releases page](https://github.com/remoteit/connectd/releases).
+
+### Deciding on the right distribution
+
+If you don't know what version of `connectd` to use on your system and you are on a Linux/Unix system, download and run the `bintester` to find the best daemon for ARM and MIPS platforms:
 
 ```shell
 cd /tmp
@@ -14,6 +18,10 @@ sudo chmod +x bintester
 ```
 
 ...where `<ARCHITECTURE>` is either `arm` or `mips`.
+
+## Usage
+
+Please see [Using connectd](https://docs.remote.it/connectd-reference/connectd) on our documentation site to learn how to use remote.it `connectd`.
 
 ## Available Releases
 
