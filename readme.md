@@ -39,7 +39,7 @@ platform. Currently here are:
 | Name                                 | Platform              | Architecture | Linking       | OS Version       | Notes                                                                             |
 |--------------------------------------|-----------------------|--------------|---------------|------------------|-----------------------------------------------------------------------------------|
 | `connectd.exe`                       | Microsoft Windows     | 32-bit       | VS static     |                  | PE32 executable (console) Intel 80386                                             |
-| `connectd.exe`                       | Microsoft Windows     | 32-bit       | Migwin static |                  | PE32 executable (console) Intel 80386 (stripped to external PDB)                  |
+| `Connectd.x86-win.exe`               | Microsoft Windows     | 32-bit       | Migwin static |                  | PE32 executable (console) Intel 80386 (stripped to external PDB)                  |
 | `connectd.x86_64-win.exe`            | Microsoft Windows     | 64-bit       | Migwin static |                  | PE32+ executable (console) x86-64 (stripped to external PDB)                      |
 | `connectd.x86-osx`                   | i386                  | 32-bit       |               |                  | Mach-O i386 executable                                                            |
 | `connectd.x86_64-osx`                | x86-64                | 64-bit       |               |                  | Mach-O 64-bit x86_64 executable                                                   |
