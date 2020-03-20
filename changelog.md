@@ -1,40 +1,99 @@
-# Changelog
+Changelog
+=========
 
-# v4.5
+v4.7
+====
 
-- Return codes are retuned on exit
-- Better error handling of port already in use condition.
-- Performance enhancements
-- Copyright update.
+-   Add -v version output
 
-# v4.4
+-   Improved statistic reporting on exit
 
-- Multiple P2P connections to one service connection fix.
-- Service only logs in once at startup.
+-   Timeouts can be set for connections based on if TCP connections are present
+    or not
 
-# v4.3
+-   better exit codes
 
-- vReporting.
-- Copyright update.
+-   targets can now set a range of ports to bind to
 
-# v4.2
+-   fixed DNS resolver for static builds
 
-- Zero window starvation fix.
-- Spelling error fix
-- CPU utilization reduction
-- NATPMP windows corner case fix
+-   better p2p connection rate to some symmetric NAT’s
 
-# v4.1
+-   fixed provisioning file reading if without a final carriage return
 
-- Ping time control for P2P links optimized and fixed
-- `!!` return codes always returned correctly
-- `!!` return codes have numeric values added
-- Suppress output now works for `-nc`
+-   target logs connecting IP address on connection
 
-# v4.0
+-   base64 password to long crash fixed
 
-- Change the binary names to "connectd".
-- Ping time control for P2P links
-- Command line configuration via base64 blobs (`-e` option)
-- Nat Checker (`-nat`)
-- Bug fixes
+v4.6
+====
+
+-   Latching Restrict IP address mode (set restrict IP to 255.255.255.255)
+
+-   Better IP restriction error reporting.
+
+-   Fix exit message and timeout when cannot bind to a port
+
+-   bug fixes
+
+-   typo fix
+
+v4.5
+====
+
+-   Return codes are retuned on exit
+
+-   Better error handling of port already in use condition.
+
+-   Performance enhancements
+
+-   Copyright update.
+
+v4.4
+====
+
+-   Multiple P2P connections to one service connection fix.
+
+-   Service only logs in once at startup.
+
+v4.3
+====
+
+-   vReporting.
+
+-   Copyright update.
+
+v4.2
+====
+
+-   Zero window starvation fix.
+
+-   Spelling error fix
+
+-   CPU utilization reduction
+
+-   NATPMP windows corner case fix
+
+v4.1
+====
+
+-   Ping time control for P2P links optimized and fixed
+
+-   `!!` return codes always returned correctly
+
+-   `!!` return codes have numeric values added
+
+-   Suppress output now works for `-nc`
+
+v4.0
+====
+
+-   Change the binary names to "connectd".
+
+-   Ping time control for P2P links
+
+-   Command line configuration via base64 blobs (`-e` option)
+
+-   Nat Checker (`-nat`)
+
+-   Bug fixes
