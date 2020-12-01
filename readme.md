@@ -73,3 +73,4 @@ platform. Currently here are:
 | `connectd.x86-linaro_uClibc_static`  | Intel 80386           | 32-bit       | static        |                  | ELF LSB executable, version 1 (SYSV)                                              |
 | `connectd.x86-ubuntu16.04`           | Intel 80386           | 32-bit       | dynamic       | GNU/Linux 2.6.32 | ELF LSB executable, interpreter /lib/ld-linux.so.2, version 1 (SYSV)              |
 | `connectd.x86-ubuntu16.04_static`    | Intel 80386           | 32-bit       | static        | GNU/Linux 2.6.32 | ELF LSB executable, version 1 (GNU/Linux)                                         |
+| `android.tgz`                        | multi                 | multi        | dynamic       | Android          | For Android Apps                                              |
