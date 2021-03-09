@@ -27,7 +27,7 @@ sudo chmod +x bintester
 Usage
 -----
 
-Please see [Using connectd](https://docs.remote.it/connectd-reference/connectd)
+Please see [Using connectd](https://support.remote.it/hc/en-us/categories/360004321952-Information-for-developers)
 on our documentation site to learn how to use remote.it `connectd`.
 
 Available Releases
